@@ -28,8 +28,8 @@ SECRET_KEY = \
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost',  'https://github.com/Anishiv05/xrwvm-fullstack_developer_capstone.git']
-CSRF_TRUSTED_ORIGINS = ['https://github.com/Anishiv05/xrwvm-fullstack_developer_capstone.git']
+ALLOWED_HOSTS = ['localhost',  'https://anishkumar58-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
+CSRF_TRUSTED_ORIGINS = ['https://anishkumar58-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
